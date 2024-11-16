@@ -1,7 +1,7 @@
 package lv.acodemy;
 
 public class Variables {
-    public static void main(String{} args) {
+    public static void main(String[] args) {
 
 
         //This is my comment
@@ -38,7 +38,7 @@ public class Variables {
 
         char grade = 'A';
         char myInitial = 'N';
-        char currencySymbol = '$'
+        char currencySymbol = '$';
 
         //print them all;
 
@@ -123,7 +123,28 @@ public class Variables {
         System.out.println(postIncrement);
         System.out.println(postDecrement);
 
-        int r= (a+b) / 5;
+        String name = "John";
+        String surname = "Doe";
+
+        // Print them separately
+        System.out.println(name);
+        System.out.println(surname);
+
+        String fullName = name + " " + surname;
+        System.out.println(fullName);
+
+        // %s - for String
+        // %d - for numbers
+        // %b - boolean
+        System.out.println(String.format("My name is: %s, My surname is: %s", name, surname));
+
+        var myCurrentAge = 30;
+        var text = "Hello World";
+
+
+
+
+
 
 
 
