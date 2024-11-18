@@ -2,22 +2,27 @@ package lv.acodemy;
 
 public class Practice {
     public static void main(String[] args) {
+        //write a for loop prints number from 1 to 10 on a separates lines
 
-        String[] numbers = {"1", "2", "3", "4", "5", "6", "7", "8", "9", "10"};
-        for (int i = 0; i < numbers.length; i++) {
-            System.out.println("Current number is " + numbers[i]);
-
-            // raspecatatj cikla for ot 1 do 10
-
-            //for(counter, condition, increment) {
-            // }
-
-
-            for (i = 1; i <= 10; i++) {
-                System.out.println("5 * " + i + " = " + i*5);
-            }
-
+        for (int i = 1; i <= 10; i++) {
+            System.out.println(i);
         }
-    }}
+
+        // Using a for loop, print all even numbers from 2 to 10
+
+        for (int i = 2; i <= 20; i++)
+        {
+            if (i % 2 == 0) {
+                System.out.println(i);}
+        }
+
+        //use a for loop to print the multiplication table of 5 up to 5*10
+
+        for (int i = 1; i <= 10; i++) {
+        System.out.println(i*5);
+        }
+    }
+    }
+
 
 
